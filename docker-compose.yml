@@ -2,7 +2,7 @@ version: '3'
 
 services:
   app:
-    image: ghcr.io/aurora-develop/aurora:latest
+    image: docker.io/leejacky/freeai:latest
     container_name: aurora
     restart: unless-stopped
     ports:
